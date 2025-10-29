@@ -4,5 +4,7 @@
 .idea
 .idea/*
 
+__pycache__
+
 .env
 traffic_map.html
