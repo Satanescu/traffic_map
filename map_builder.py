@@ -16,7 +16,7 @@ def build_map() -> folium.Map:
         tiles=osm_basemap_template(),
         attr='&copy; OpenStreetMap contributors'
     )
-    # Overlay raster oficial TomTom, pentru referință vizuală.  :contentReference[oaicite:6]{index=6}
+    # Overlay raster oficial TomTom, pentru referință vizuală.
     folium.TileLayer(
         tiles=tomtom_flow_tiles_template(),
         name="Traffic Flow (TomTom raster)",
@@ -27,6 +27,6 @@ def build_map() -> folium.Map:
         max_zoom=22
     ).add_to(m)
 
-    folium.LayerControl(collapsed=False).add_to(m)
+    folium.LayerControl(collapsed=True).add_to(m)
 
     return m
