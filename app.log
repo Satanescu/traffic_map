@@ -1,0 +1,15 @@
+2025-11-04 20:13:28,774 - root - INFO - Programul ruleaza
+2025-11-04 20:13:28,774 - root - WARNING - s-a detectar o probblema
+2025-11-04 20:13:28,774 - root - ERROR - S-aa detectat o erroare
+2025-11-04 20:14:35,341 - root - INFO - Codul a rulat corect
+2025-11-04 20:16:12,588 - root - INFO - Harta s-a generat
+2025-11-04 20:16:12,588 - root - INFO - Codul a rulat corect
+2025-11-04 20:48:19,797 - root - INFO - Harta s-a generat
+2025-11-04 20:48:19,797 - root - INFO - Codul a rulat corect
+2025-11-04 20:48:20,104 - root - ERROR - Forbidden: cheia este valid\u0103 dar nu are permisiuni pentru acest endpoint.
+2025-11-04 20:48:47,842 - root - INFO - Harta s-a generat
+2025-11-04 20:48:47,842 - root - INFO - Codul a rulat corect
+2025-11-04 20:48:48,118 - root - ERROR - Forbidden: cheia este valid\u0103 dar nu are permisiuni pentru acest endpoint.
+2025-11-04 20:49:17,213 - root - INFO - Harta s-a generat
+2025-11-04 20:49:17,213 - root - INFO - Codul a rulat corect
+2025-11-04 20:49:17,514 - root - ERROR - Forbidden: cheia este valida dar nu are permisiuni pentru acest endpoint.

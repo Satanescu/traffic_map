@@ -15,6 +15,7 @@ def build_map() -> folium.Map:
         zoom_start=MAP_ZOOM,
         tiles=osm_basemap_template(),
         attr='&copy; OpenStreetMap contributors'
+
     )
     # Overlay raster oficial TomTom, pentru referință vizuală.
     folium.TileLayer(
