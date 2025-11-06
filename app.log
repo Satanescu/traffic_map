@@ -92,3 +92,14 @@
 2025-11-06 18:07:06,936 - root - INFO - Codul a rulat corect
 2025-11-06 18:07:07,226 - root - ERROR - Forbidden: cheia este valida dar nu are permisiuni pentru acest endpoint. Incearca sa iei o cheie de aici --> https://developer.tomtom.com/knowledgebase/platform/articles/how-to-get-an-tomtom-api-key/
 2025-11-06 18:07:09,403 - root - INFO - Valorile s-au updatat new_zoom: 12 & new_opacity: 3.0 
+2025-11-06 18:16:55,353 - root - INFO - Harta s-a generat
+2025-11-06 18:16:55,353 - root - INFO - Codul a rulat corect
+2025-11-06 18:16:55,644 - root - ERROR - Forbidden: cheia este valida dar nu are permisiuni pentru acest endpoint. Incearca sa iei o cheie de aici --> https://developer.tomtom.com/knowledgebase/platform/articles/how-to-get-an-tomtom-api-key/
+2025-11-06 18:17:07,375 - root - INFO - Valorile s-au updatat new_zoom: 100 & new_opacity: 2.0 
+2025-11-06 18:17:47,608 - root - INFO - Harta s-a generat
+2025-11-06 18:17:47,608 - root - INFO - Codul a rulat corect
+2025-11-06 18:17:47,889 - root - ERROR - Forbidden: cheia este valida dar nu are permisiuni pentru acest endpoint. Incearca sa iei o cheie de aici --> https://developer.tomtom.com/knowledgebase/platform/articles/how-to-get-an-tomtom-api-key/
+2025-11-06 18:18:30,676 - root - INFO - Harta s-a generat
+2025-11-06 18:18:30,676 - root - INFO - Codul a rulat corect
+2025-11-06 18:18:30,969 - root - ERROR - Forbidden: cheia este valida dar nu are permisiuni pentru acest endpoint. Incearca sa iei o cheie de aici --> https://developer.tomtom.com/knowledgebase/platform/articles/how-to-get-an-tomtom-api-key/
+2025-11-06 18:18:37,439 - root - INFO - Valorile s-au updatat new_zoom: 1 & new_opacity: 1.0 

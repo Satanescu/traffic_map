@@ -28,15 +28,20 @@ def change_values_env():
 
     current_zoom=os.getenv('MAP_MAX_ZOOM')
     current_opacity=os.getenv('MAP_OPACITY')
+    current_style=os.getenv('TOMTOM_STYLE')
 
     new_max_zoom=input(f'Zoom-ul maxim actual este {current_zoom}: ')
     new_opacity=input(f'Opacitatea actual este {current_opacity}: ')
+    new_style=input(f"Stilul actual este: {current_style}: ")
+
 
     try:
         if new_max_zoom is not None:
             new_max_zoom=str(int(new_max_zoom))
         if new_opacity is not None:
             new_opacity=str(float(new_opacity))
+        if new_style is not None:
+            new_style=str(new_style)
     except ValueError:
         print("Va rog introduceti o valoare corecta")
         return #???????????
@@ -47,6 +52,8 @@ def change_values_env():
         set_key(env_file,"MAP_MAX_ZOOM",new_max_zoom)
     if new_opacity:
         set_key(env_file,"MAP_OPACITY",new_opacity)
+    if new_style:
+        set_key(env_file,"TOMTOM_STYLE",new_style)
 
     logging.info(f"Valorile s-au updatat new_zoom: {new_max_zoom} & new_opacity: {new_opacity} ")
 
